@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>InstaPatent</title>
+    <meta
+      name="description"
+      content="Make an NFT instantly to patent your ideas!"
+    />
+    <meta name="robots" content="noindex" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img
+          class="center-image"
+          src="./img/instapatent.png"
+          alt="InstaPatent"
+        />
+        <br />
+        <h1 translate="PAGE_SLOGAN"></h1>
+      </header>
+      <p id="loading" translate="PAGE_LOADING"></p>
+      <main id="data">
+        <div class="row">
+          <div class="column-left"><p translate="OWNER"></p></div>
+          <div class="column-right" id="owner"></div>
+        </div>
+        <div class="row">
+          <div class="column-left"><p translate="NAME"></p></div>
+          <p class="column-right" id="name"></p>
+        </div>
+        <div class="row">
+          <div class="column-left"><p translate="CATEGORY"></p></div>
+          <p class="column-right" id="category"></p>
+        </div>
+        <div class="row">
+          <div class="column-left"><p translate="DESCRIPTION"></p></div>
+          <div class="column-right" id="description"></div>
+        </div>
+        <div class="row">
+          <div class="column-left"><p translate="FILE"></p></div>
+          <div class="column-right" id="file"></div>
+        </div>
+        <div class="row">
+          <div class="column-left"><p translate="SOURCE"></p></div>
+          <div class="column-right" id="source"></div>
+        </div>
+        <div class="row">
+          <div class="column-left"><p translate="METADATA"></p></div>
+          <div class="column-right" id="metadata"></div>
+        </div>
+        <div class="row">
+          <div class="column-left"><p translate="NFT"></p></div>
+          <div class="column-right" id="nft"></div>
+        </div>
+        <div class="row">
+          <div class="column-left"><p translate="COLLECTION_NAME"></p></div>
+          <div class="column-right" id="collection"></div>
+        </div>
+        <div class="row">
+          <div class="column-left"><p translate="TRANSACTION_ADDRESS"></p></div>
+          <div class="column-right" id="transaction"></div>
+        </div>
+
+        <div class="row">
+          <div class="column-left"><p translate="CREATED_DATE"></p></div>
+          <div class="column-right" id="date"></div>
+        </div>
+      </main>
+
+      <p id="_404" class="not-found" translate="PAGE_NOT_FOUND"></p>
+    </div>
+    <footer translate="PAGE_COPYRIGHT"></footer>
+    <script src="./scripts/jquery.min.js"></script>
+    <script src="./scripts/i18n.js"></script>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
