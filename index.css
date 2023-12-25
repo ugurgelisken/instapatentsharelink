@@ -32,6 +32,7 @@ body {
   flex: auto;
   margin: 20px 0;
   width: 640px;
+  overflow: hidden;
 }
 
 .center-image {
@@ -50,12 +51,13 @@ footer {
   gap: 4px;
   padding: 0px 20px;
   width: max-content;
+  color: gray;
 }
 
 footer a {
   font-weight: 600;
   text-decoration: none;
-  color: inherit;
+  color: gray;
 }
 
 h1 {
@@ -140,6 +142,7 @@ main {
   margin-top: 10px;
   display: none;
   width: 100%;
+  overflow: hidden;
 }
 
 .br {
@@ -164,7 +167,7 @@ main {
     display: table-row;
     width: 100vw;
     margin-bottom: 10px;
-    border-bottom: var(--border-solid) silver;
+    border-bottom: none;
   }
 
   footer p,
@@ -178,6 +181,7 @@ main {
     width: 100vw;
     display: block;
     margin-bottom: 6px;
+    overflow: hidden;
   }
 
   footer {

@@ -19,21 +19,21 @@ $(document).ready(function () {
       $('#description').html(data.description);
       $('#category').html(i18n.translate('CATEGORY.' + data.categoryId));
       $('#file').html(
-        `<div class="source-area">
+        `<div>
           <a href='${data.sourceURL}
           ' target='_blank' >${data.sourceURL}
           </a>
         </div>`
       );
       $('#source').html(
-        `<div class="source-area">
+        `<div>
           <a href='${data.sourceAddress}
           ' target='_blank' >${data.sourceAddress}
           </a>
         </div>`
       );
       $('#metadata').html(
-        `<div class="source-area">
+        `<div>
           <a href='${data.metadataAddress}
           ' target='_blank' >${data.metadataAddress}
           </a>
