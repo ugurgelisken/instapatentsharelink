@@ -36,9 +36,9 @@ body {
 
 .center-image {
   display: block;
-  margin: var(--auto-margin);
+  margin: -20px auto;
   height: auto;
-  width: 100px;
+  width: 130px;
 }
 
 footer {
@@ -156,7 +156,8 @@ main {
     padding: 4px;
   }
   .center-image {
-    width: 80px;
+    width: 100px;
+    margin: -20px auto;
   }
 
   .row {
